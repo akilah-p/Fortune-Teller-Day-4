@@ -33,3 +33,14 @@ header .logo {
 main {
     padding: 20px;
 }
+
+img {border-radius:50%;
+    height: 200px;
+    width: 200px;
+
+
+}
+
+.hide { display:none;
+
+}
