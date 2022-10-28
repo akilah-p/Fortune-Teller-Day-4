@@ -10,6 +10,9 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+    /*code borrowed from https://stackoverflow.com/questions/56418763/creating-the-perfect-rainbow-gradient-in-css */
+     
 }
 
 header {
@@ -24,6 +27,8 @@ header {
 
     background-color: var(--header-background);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+   
+
 }
 
 header .logo {
@@ -32,15 +37,44 @@ header .logo {
 
 main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    font-weight:bolder;
+
 }
 
 img {border-radius:50%;
-    height: 200px;
-    width: 200px;
-
+    height: auto;
+    width: auto;
+    align-content: center;
 
 }
 
 .hide { display:none;
 
 }
+
+#answer {font-family: 'Courier New', Courier, monospace;
+    color:blue;
+    font-style:italic;
+    text-align:center;
+
+}
+
+p {font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    border-style:solid;
+    border-color:red;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+    color:antiquewhite;
+
+}
+
+input {align-items:center;
+    
+}
+
+
