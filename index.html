@@ -27,10 +27,24 @@
 <body>
     <header>
         <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
+        <h1>Fortune Teller</h1>
+        
     </header>
 
     <main>
+        <section id="prompt" class="prompt">
+            <iframe src="https://giphy.com/embed/RLuFQ4m5y95SgXDw5S" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/netflix-walter-mercado-mucho-amor-netflix-RLuFQ4m5y95SgXDw5S"><!--via GIPHY--></a></p>
+            <p class="question">What is to come in your future?</p>
+            <input type="text" size="50"/>
+            <button id="submit" size="20" class="button1">Find Out!</button>
+        </section>
+        <section id="fortune" class="fortune hide">
+           <div class="walter">
+            <img src="./assets/walter mercado pop sugar pic.PNG" alt="Walter Mercado standing with arms crossed looking at camera. With flowered pots as background"/>
+            <p id="answer"></p>
+            <button id="reset" class="btn">Ask Again!</button>
+            </div>
+        </section>
 
     </main>
 

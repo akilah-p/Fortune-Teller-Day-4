@@ -10,6 +10,9 @@ body {
     background: var(--background);
     display: grid;
     grid-template-rows: auto 1fr;
+    background-image: repeating-radial-gradient(circle at top left, violet,purple 20%, violet 40%);
+    background-blend-mode: normal;
+    
 }
 
 header {
@@ -19,11 +22,12 @@ header {
     height: 80px;
 
     display: flex;
-    align-items: center;
+    justify-items: end;
     gap: 10px;
-
-    background-color: var(--header-background);
+    background-image: repeating-radial-gradient(circle at top left, violet,purple 20%, violet 40%);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+
 }
 
 header .logo {
@@ -32,4 +36,88 @@ header .logo {
 
 main {
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    font-weight:bolder;
+
 }
+
+img {border-radius:50%;
+    height: auto;
+    width: auto;
+    align-content: center;
+    opacity: 0.8;
+
+}
+
+.hide { display:none;
+
+}
+
+#answer {font-family: 'Courier New', Courier, monospace;
+    color:antiquewhite;
+    font-style:italic;
+    text-align:center;
+    font-size:25px;
+    align-items: center;
+
+}
+
+.question {font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    color:antiquewhite;
+
+}
+
+input {align-items:center;
+    
+}
+
+
+
+
+
+.button1 {
+    background-color: salmon;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight:bold;
+    border-radius:50%;
+    border-color:black;
+}
+
+iframe {border-radius:20px;
+    
+}
+.walter {
+    position: relative;
+    width:50%;
+}
+
+
+
+.walter .btn {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(221, 29, 29, 0.373);
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border:none;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+
